@@ -1,5 +1,4 @@
 import requests
-#import numpy
 
 application_id = input("Enter application ID: ")
 while not application_id.isdigit():
@@ -29,18 +28,6 @@ cmd_isRequired = bool(cmd_isRequired)
 
 print ("Starting choices editor...")
 
-#choices = []
-#stop = "n"
-#while stop == "n":
-#    choiceName = input("Enter choice name: ")
-#    choiceValue = input("Enter choice value: ")
-#    choices.append([choiceName, choiceValue])
-#    stop = input("Done? (y/n): ")[0].lower()
-
-
-#choicesNum = len(choices)
-#for choice in choices:
-    
 
 json = {
     "name": cmd_name,
