@@ -13,6 +13,7 @@ Install this through a command line with `pip install requests`
 # How to use
 
 1) Download and run the Python script (https://github.com/iSaluki/discord-slash-commands/blob/main/discord-slash-commands.py)
+2) Make sure you've added the `applications.commands` scope to your bot for the server you want to add the command to (if you're doing guild based). Replace BOT_ID with your bot's client ID in this link: https://discord.com/api/oauth2/authorize?client_id=BOT_ID&scope=applications.commands
 2) Enter all the details into the CLI, you will be prompted for them one by one.
 3) Head over to Discord and see the new slash commands
 
