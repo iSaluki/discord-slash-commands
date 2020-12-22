@@ -1,4 +1,4 @@
-# Slash Command Generator
+# Slash Command Tools
 A Python-based tool to allow you to easily create, list and delete Discord slash commands.
 You just need to enter a few details and then the script will handle the rest for you.
 Supports global and guild commands.
