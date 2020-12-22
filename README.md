@@ -26,7 +26,9 @@ Want to run the code in your browser? [Do it here!](https://repl.it/@saluki/disc
 Main features available now.
 
 `CREATE` a new slash command for a bot, in a specific guild or globally. You can also update these by overriding them.
+
 `LIST` commands for a bot, either globally or in a specific guild.
+
 `DELETE` commands for a bot, either globally or in a specific guild.
 
 
