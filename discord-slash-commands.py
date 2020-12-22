@@ -7,10 +7,10 @@ def CreateCommand():
 	while not application_id.isdigit():
 	    application_id = input("Enter application ID: ")
 	token = input("Enter bot token: ")
-	cmdType = input("Global or Guild?: ")
-	if cmdType.lower() == "global":
+	cmdType = input("[Gl]obal or [G]uild?: ")
+	if cmdType.lower() == "global" or cmdType.lower() == "gl":
 	    url = "https://discord.com/api/v8/applications/"+application_id+"/commands"
-	elif cmdType.lower() == "guild":
+	elif cmdType.lower() == "guild" cmdType.lower() == "g":
 	    guild_id = input("Enter guild ID: ")
 	    while not guild_id.isdigit():
 	        guild_id = input("Enter guild ID: ")
@@ -64,14 +64,14 @@ def DeleteCommand():
         command_id = input("Enter command ID: ")
         while not command_id.isdigit():
             command_id = input("Ented valid command ID: ")
-        cmd_Type = input("[G]uild or [Gl]obal?: ").lower()
+        cmd_Type = input("[Gl]obal or [G]uild?: ").lower()
 
-        if cmd_Type == "guild":
+        if cmd_Type == "guild" or cmd_Type = "g":
             guild_id = input("Enter guild ID: ")
             while not guild_id.isdigit():
                 guild_id = input("Enter valid guild ID: ")
                 url = "https://discord.com/api/v8/applications/"+application_id+"/guilds/"+guild_id+"/commands/"+command_id
-        elif cmd_Type == "global":
+        elif cmd_Type == "global" or cmd_Type == "gl":
             url = "https://discord.com/api/v8/applications/" + application_id + "/commands/" + command_id
         else:
             print ("Invalid response")
@@ -93,13 +93,13 @@ def GetCommand():
 	while not application_id.isdigit():
 		application_id = input("Enter valid application ID: ")
 	token = input("Enter bot token: ")
-	cmd_Type = input("Guild or Global?: ").lower()
-	if cmd_Type == "guild":
+	cmd_Type = input("[Gl]obal or [G]uild?: ").lower()
+	if cmd_Type == "guild" or cmd_Type == "g":
 		guild_id = input("Enter guild ID: ")
 		while not guild_id.isdigit():
 		    guild_id = input("Enter guild ID: ")
 		url = "https://discord.com/api/v8/applications/"+application_id+"/guilds/"+guild_id+"/commands"
-	elif cmd_Type == "global":
+	elif cmd_Type == "global" or cmd_Type == "gl":
 		    url = "https://discord.com/api/v8/applications/"+ application_id +"/commands"
 	else:
 	    print ("Invalid response")
