@@ -1,6 +1,8 @@
 # Slash Command Tools
 
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/vzehFuy9rU)
+[Discord Badge](https://img.shields.io/discord/697477880938102925?style=for-the-badge)
+
+
 A Python-based tool to allow you to easily create, list and delete Discord slash commands.
 You just need to enter a few details and then the script will handle the rest for you.
 Supports global and guild commands.
