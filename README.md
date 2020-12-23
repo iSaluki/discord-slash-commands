@@ -1,6 +1,6 @@
 # Slash Command Tools
 
-![Discord](https://img.shields.io/discord/697477880938102925?style=for-the-badge)(https://discord.gg/vzehFuy9rU)
+[![Discord](https://img.shields.io/discord/697477880938102925?style=for-the-badge)](https://discord.gg/vzehFuy9rU)
 
 
 A Python-based tool to allow you to easily create, list and delete Discord slash commands.
