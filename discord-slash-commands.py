@@ -97,7 +97,7 @@ def GetCommand():
         application_id = input("Enter valid application ID: ")
     token = input("Enter bot token: ")
     cmd_Type = input("[Gl]obal or [G]uild?: ").lower()
-    if cmd_Type == "guild" or "gu":
+    if cmd_Type == "guild":
         guild_id = input("Enter guild ID: ")
         while not guild_id.isdigit():
             guild_id = input("Enter guild ID: ")
