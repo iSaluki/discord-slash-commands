@@ -1,3 +1,6 @@
+# This script is completely free to use for any purpose, under the MIT license. If you have any problems or suggestions, please open an issue on GitHub.
+
+
 import requests
 
 
