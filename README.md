@@ -2,6 +2,7 @@
 
 [![Discord](https://img.shields.io/discord/697477880938102925?style=for-the-badge)](https://discord.gg/vzehFuy9rU)
 
+
 [![DeepSource](https://deepsource.io/gh/iSaluki/discord-slash-commands.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/iSaluki/discord-slash-commands/?ref=repository-badge)
 
 
