@@ -117,25 +117,28 @@ def GetCommand():
     r = requests.get(url, headers=headers)
     print(r.content)
     funcSelector()
-    
+
+
 def funcSelector():
-	print("")
-	print("Please select a function")
-	print("")
-	print("To update a command, create a new command with the same name, this will override it.")
-	print("")
-	print("[C]reate command")
-	print("[D]elete command")
-	print("[G]et commands")
-	print("")
-	fSel = input("Enter function: ")[0].lower()
-	
-	if fSel == "c":
-	    CreateCommand()
-	elif fSel == "d":
-	    DeleteCommand()
-	elif fSel == "g":
-	    GetCommand()
-	else:
-	    print("Invalid function.")
+    print("")
+    print("Please select a function")
+    print("")
+    print("To update a command, create a new command with the same name, this will override it.")
+    print("")
+    print("[C]reate command")
+    print("[D]elete command")
+    print("[G]et commands")
+    print("")
+    fSel = input("Enter function: ")[0].lower()
+
+    if fSel == "c":
+        CreateCommand()
+    elif fSel == "d":
+        DeleteCommand()
+    elif fSel == "g":
+        GetCommand()
+    else:
+        print("Invalid function.")
+
+
 funcSelector()
