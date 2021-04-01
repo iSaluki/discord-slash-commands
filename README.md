@@ -34,7 +34,7 @@ Main features available now.
 
 `CREATE` a new slash command for a bot, in a specific guild or globally. You can also update these by overriding them.
 
-`LIST` commands for a bot, either globally or in a specific guild.
+`GET` commands for a bot, either globally or in a specific guild.
 
 `DELETE` commands for a bot, either globally or in a specific guild.
 
